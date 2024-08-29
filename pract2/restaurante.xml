@@ -1,78 +1,105 @@
 <!-- Crea un documento XML que represente la estructura de un menú de un restaurante. Debe incluir secciones para entradas, platos principales, postres y bebidas, cada una con varios elementos que representen los ítems del menú. -->
 
 <?xml version="1.0"?>
-<restaurante>
-    <menu>
-        <entrada>
+
+<menu>
+    <seccion>
+        <nombre>Entradas</nombre>
+        <item>
             <id>000001</id>
-            <nombre></nombre>
-            <descripcion></descripcion>
-            <precio></precio>
-        </entrada>
-        <entrada>
+            <nombre>Chips de Zucchini y Queso</nombre>
+            <descripcion>Un Snack saludable</descripcion>
+            <precio>3000.00</precio>
+        </item>
+            
+        <item>
             <id>000002</id>
-            <nombre></nombre>
-            <precio></precio>
-        </entrada>
-        <entrada>
+            <nombre>Scones de Aceituna Negra</nombre>
+            <descripcion>Para la picada, una buena opcion para cortarlos al medio</descripcion>
+            <precio>2800.00</precio>
+        </item>
+
+        <item>
             <id>000003</id>
-            <nombre></nombre>
-            <precio></precio>
-        </entrada> 
-        <plato_principal>
+            <nombre>Bruschetta de Tomates Secos</nombre>
+            <descripcion>Una preparacion para los que no tienen mucha experiencia</descripcion>
+            <precio>3000.00</precio>
+        </item>
+    </seccion>
+
+    <seccion>
+        <nombre>Platos Principales</nombre>
+        <item>
             <id>000004</id>
-            <nombre></nombre>
-            <descripcion></descripcion>
-            <precio></precio>
-        </plato_principal>
-        <plato_principal>
+            <nombre>Hambuguesa de Lenteja</nombre>
+            <descripcion>con rucula, pepinillo, cebolla</descripcion>
+            <precio>4000.00</precio>
+        </item>
+
+        <item>
             <id>000005</id>
-            <nombre></nombre>
-            <descripcion></descripcion>
-            <precio></precio>
-        </plato_principal>
-        <plato_principal>
+            <nombre>Pechuga de Pollo con Quesos</nombre>
+            <descripcion>queso sardo, muzarella</descripcion>
+            <precio>4000.00</precio>
+        </item>
+
+        <item>
             <id>000006</id>
-            <nombre></nombre>
-            <descripcion></descripcion>
-            <precio></precio>
-        </plato_principal>
-        <postre>
+            <nombre>Milanesa de Ternera</nombre>
+            <descripcion>con papas rusticas</descripcion>
+            <precio>4500.00</precio>
+        </item>
+    </seccion>
+
+    <seccion>
+        <nombre>Postres</nombre>
+
+        <item>
             <id>000007</id>
-            <nombre></nombre>
-            <descripcion></descripcion>
-            <precio></precio>
-        </postre>
-        <postre>
+            <nombre>Gelatina de manzana</nombre>
+            <descripcion>Gelatina casera con manzanas frescas</descripcion>
+            <precio>2000.00</precio>
+        </item>
+
+        <item>
             <id>000008</id>
-            <nombre></nombre>
-            <descripcion></descripcion>
-            <precio></precio>
-        </postre>
-        <postre>
+            <nombre>Dulce de durazno con menta</nombre>
+            <descripcion>Dulce de durazno con un toque de menta</descripcion>
+            <precio>2200.00</precio>
+        </item>
+
+        <item>
             <id>000009</id>
-            <nombre></nombre>
-            <descripcion></descripcion>
-            <precio></precio>
-        </postre>
-        <bebida>
+            <nombre>Flan de la casa</nombre>
+            <descripcion>Flan clásico con caramelo casero</descripcion>
+            <precio>2500.00</precio>
+        </item>
+    </seccion>
+
+    <seccion>
+        <nombre>Bebidas</nombre>
+
+        <item>
             <id>000010</id>
-            <nombre></nombre>
-            <descripcion></descripcion>
-            <precio></precio>
-        </bebida>
-        <bebida>
+            <nombre>Cerveza Quilmes</nombre>
+            <descripcion>Clasica de 500 lts</descripcion>
+            <precio>1500.00</precio>
+        </item>
+        
+        <item>
             <id>000011</id>
-            <nombre></nombre>
-            <descripcion></descripcion>
-            <precio></precio>
-        </bebida>
-        <bebida>
+            <nombre>Cerveza Andes</nombre>
+            <descripcion>IPA RED de 700 lts</descripcion>
+            <precio>2000.00</precio>
+        </item>
+
+        <item>
             <id>000012</id>
-            <nombre></nombre>
-            <descripcion></descripcion>
-            <precio></precio>
-        </bebida>
-    </menu>
-</restaurante>
+            <nombre>Vino</nombre>
+            <descripcion>Malbec, botella de 750 ml</descripcion>
+            <precio>1800.00</precio>
+        </item>
+    </seccion>
+    
+</menu>
 

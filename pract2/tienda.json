@@ -1,0 +1,28 @@
+{
+    "tienda":{
+        "categoria":[{
+        "nombre": "Computacion",
+        "producto": [{
+            "nombre": "Notebook Sony VAIO",
+            "descripcion": "Caracteristicas: Intel core i5, Bluray, Windows 7",
+            "precio": 150000.00
+        },{
+            "nombre": "Mouse Logitech MX Master 3",
+            "descripcion": "Mouse inalámbrico ergonómico con múltiples botones personalizables y recargable",
+            "precio": 12000.00
+        }]
+
+        },{
+        "nombre": "Hogar",
+        "producto": [{
+            "nombre": "Aspiradora Philips PowerPro Compact",
+            "descripcion": "Aspiradora sin bolsa con tecnología PowerCyclone 5 para una alta succión y filtro de aire lavable.",
+            "precio": 25000.00
+        },{
+            "nombre": "Lavarropas DREAN Next",
+            "descripcion": "Lavarropa de 6kg, multiples funcionalidades.",
+            "precio": 600000.00
+        }]}
+        ]
+    }
+}

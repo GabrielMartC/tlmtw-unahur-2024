@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<estudiante>
+    <nombre>Pablo Rodriguez</nombre>
+    <edad>21</edad>
+    <carrera>Ingeniería en Informática</carrera>
+    <cursos>
+        <curso>Matemáticas</curso>
+        <curso>Física</curso>
+    </cursos>
+</estudiante>
+
