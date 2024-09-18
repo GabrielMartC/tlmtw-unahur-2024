@@ -1,0 +1,16 @@
+body{
+    max-width: max-content;
+    margin: auto;
+}
+
+form{
+    display: grid;
+}
+
+input{
+    /* max-width: 30%; */
+}
+
+#inputSubm{
+    width: 100px;
+}
