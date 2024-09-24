@@ -1,0 +1,44 @@
+body{
+    background-color: beige;
+    text-align: center;
+    font-family: cursive;
+    
+}
+
+h1{
+    color: red;
+    font-size: 32px;
+}
+
+h2{
+    color: blue;
+    font-size: 24px;
+}
+
+p{
+    color: #b5c3cf;
+    font-size: 16px;
+}
+
+li{
+    color: rgb(226, 226, 226);
+    font-size: 12px;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    border: 2px solid #000000;
+}
+
+a {
+    /* background-color: #008000;*/
+    color: #008000;
+    text-decoration: none;
+} 
+
+a:hover {
+    text-decoration: underline;
+}
