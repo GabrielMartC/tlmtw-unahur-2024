@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 52);
+    text-align: center;
+    font-family: 'sans-serif', serif;
+    font-size: 18px;
+}
+
+/*fuente personalizada*/
+@font-face{ 
+    font-family: 'starjedi';
+    src: url('fonts/Starjedi.ttf') format('truetype');
+}
+
+hr{
+    height: 1px;
+    background-color: rgb(255, 255, 52);
+    border: none;
+    opacity: 0.2;
+}
+
+h1,h2{
+    font-family: 'starjedi',sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+b{
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+.imperio{
+    color: rgb(255, 80, 80);
+}
+
+.rebeldes{
+    color: rgb(88, 188, 255);
+}
+
+img{
+    height: 400px;
+}
