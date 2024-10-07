@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Inicio | Instituto Anacrusa </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="inicio">
@@ -28,7 +31,8 @@
                 </li>
             </ul>
         </nav>
-        <h1>Academia Musical Anacrusa Musical</h1>
+        <hr>
+        <img id="img-logo" src="https://drive.google.com/thumbnail?id=1jNoswCfPF_e5roOsqfxJIUCkBmE4In60&sz=s4000" alt="logo-anacrusa">
         <img id="img-inicio" src="https://drive.google.com/thumbnail?id=1EschPfIFgl2DiGvF8oWX_QsmtCnPstyV&sz=s4000" alt="anacrusa-academia" title="Anacrusa Academia">
         <p>Somos Anacrusa! Un instituto dedicado a formar músicos apasionados con un enfoque creativo y personalizado.
             La música te espera. ¿Te animas a descubrirla?</p>
@@ -38,23 +42,26 @@
     <main>
         <section id="sobre-nosotros">
             <h2>Sobre Nosotros</h2>
-            <!-- video institucional LOCAL -->
-             <video width="320" height="240" controls>
+            <div id="videos-institucionales">
+                <!-- video institucional LOCAL -->
+                <video width="320" height="240" controls>
                 <source src="./video/institucional.mp4" type="video/mp4">
-             </video>
-             <iframe width="320" height="240" src="https://www.youtube.com/embed/URTOpXQtKWY?si=G5DbY9Bx8lJz4mHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>Desde hace mas de 10 años, buscamos que cada estudiante desarrolle su talento y amor por 
+                </video>
+                <iframe width="320" height="240" src="https://www.youtube.com/embed/URTOpXQtKWY?si=G5DbY9Bx8lJz4mHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+             <p>Desde hace más de 10 años, buscamos que cada estudiante desarrolle su talento y amor por 
                 la música en un ambiente inspirador. Ofrecemos clases para una variedad de instrumentos y estilos musicales, 
                 promoviendo la disciplina y la expresión artística.</p>
             <!-- imagenes del instituto -->
             <div id="contenedor-img-institucionales">
-                <img class="img-institicionales" src="https://drive.google.com/thumbnail?id=11av2_FoOD1Qq5N3RVD6tQR4PA79dZjYn&sz=s4000" alt="imagen-institucional-1">
-                <img class="img-institicionales" src="https://drive.google.com/thumbnail?id=1L18Ildz-W7TjgsFKvHvbdC1zjXPl1Nrs&sz=s4000" alt="imagen-institucional-2">
-                <img class="img-institicionales" src="https://drive.google.com/thumbnail?id=19IwdbQfsiXdeQ943H7s0wFE3W1dArnB1&sz=s4000" alt="imagen-institucional-3">
-                <img class="img-institicionales" src="https://drive.google.com/thumbnail?id=10OOJ3QMS7GElj1PFxFXoVDURvYLmYa-o&sz=s4000" alt="imagen-institucional-4">
-                <img class="img-institicionales" src="https://drive.google.com/thumbnail?id=1HceFPp851H5XV_LQn4TblJ266SFco1Nj&sz=s4000" alt="imagen-institucional-5">
-                <img class="img-institicionales" src="https://drive.google.com/thumbnail?id=1lGclELkjKB-AFVb5ZyozFcC0secro2vS&sz=s4000" alt="imagen-institucional-6">
-                <img class="img-institicionales" src="https://drive.google.com/thumbnail?id=1XHHQMRuDQf3Ja2ikpWGOP9T_jUskTq3r&sz=s4000" alt="imagen-institucional-7">
+                <img class="img-institucionales" src="https://drive.google.com/thumbnail?id=11av2_FoOD1Qq5N3RVD6tQR4PA79dZjYn&sz=s4000" alt="imagen-institucional-1">
+                <img class="img-institucionales" src="https://drive.google.com/thumbnail?id=1L18Ildz-W7TjgsFKvHvbdC1zjXPl1Nrs&sz=s4000" alt="imagen-institucional-2">
+                <img class="img-institucionales" src="https://drive.google.com/thumbnail?id=19IwdbQfsiXdeQ943H7s0wFE3W1dArnB1&sz=s4000" alt="imagen-institucional-3">
+                <img class="img-institucionales" src="https://drive.google.com/thumbnail?id=10OOJ3QMS7GElj1PFxFXoVDURvYLmYa-o&sz=s4000" alt="imagen-institucional-4">
+                <img class="img-institucionales" src="https://drive.google.com/thumbnail?id=1HceFPp851H5XV_LQn4TblJ266SFco1Nj&sz=s4000" alt="imagen-institucional-5">
+                <img class="img-institucionales" src="https://drive.google.com/thumbnail?id=1lGclELkjKB-AFVb5ZyozFcC0secro2vS&sz=s4000" alt="imagen-institucional-6">
+                <img class="img-institucionales" src="https://drive.google.com/thumbnail?id=1XHHQMRuDQf3Ja2ikpWGOP9T_jUskTq3r&sz=s4000" alt="imagen-institucional-7">
 
             </div>
         </section>
@@ -63,135 +70,140 @@
             <h2>Nuestros Cursos</h2>
             <!-- audio de 1 min relatando los tipos de cursos-->
              <audio controls>
-                <source src="" type="audio/ogg">
+                <source src="./audio/20241007-132538.mp3" type="audio/mp3">
              </audio>
 
-            <article id="canto">
-                <h3>Canto</h3>
-                <a href="https://youtu.be/NxbGL__0n_Q?si=5aQYkSUiRgqH_eTL" target="_self">
-                    <img class="img-principal-cursos" src="./imagenes/canto.jpg" alt="microfono" title="Ver Video De Alumnos de Canto">
-                </a>
-                <p>Se trabajará sobre distintas técnicas vocales, respiración y afinación, desarrollo escénico, ensamble vocal 
-                    y de forma individual.</p>
-                    
-                <a href="cursoDeCanto.html">
-                    <img class="ir-al-curso" src="./imagenes/ir-a-curso.png">
-                    <!-- poner height 40px -->
-                </a>
-            </article>
+            <div id="contenedor-cursos">
+                <article id="canto">
+                    <h3>Canto</h3>
+                    <a href="https://youtu.be/NxbGL__0n_Q?si=5aQYkSUiRgqH_eTL" target="_self">
+                        <img class="img-principal-cursos" src="./imagenes/canto.jpg" alt="microfono" title="Ver Video De Alumnos de Canto">
+                    </a>
+                    <p>Se trabajará sobre distintas técnicas vocales, respiración y afinación, desarrollo escénico, ensamble vocal 
+                        y de forma individual.</p>
+                        
+                    <a href="cursoDeCanto.html">
+                        <img class="img-ir-al-curso" src="./imagenes/ir-a-curso.png">
+                        <!-- poner height 40px -->
+                    </a>
+                </article>
 
-            <article id="piano">
-                <h3>Piano</h3>
-                <a href="https://www.youtube.com/watch?v=8RI-YVvZzZ4" target="_self">
-                    <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1Y0ZVDk1O-5lDH7JeLO9DIhT6zvPuejkS&sz=s4000" alt="instrumento-piano" title="Ver Video De Alumnos de Piano">
-                </a>
-                <p>Se aprenderá desde lo básico hasta técnicas avanzadas, explorando diferentes géneros musicales. 
-                    Se iran Desarrollando habilidades de lectura, improvisación y expresión artística en un ambiente 
-                    estimulante</p>
-                <a href="">
-                    <img class="ir-al-curso" src="./imagenes/ir-a-curso.png">
-                </a>
-            </article>
+                <article id="piano">
+                    <h3>Piano</h3>
+                    <a href="https://www.youtube.com/watch?v=8RI-YVvZzZ4" target="_self">
+                        <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1Y0ZVDk1O-5lDH7JeLO9DIhT6zvPuejkS&sz=s4000" alt="instrumento-piano" title="Ver Video De Alumnos de Piano">
+                    </a>
+                    <p>Se aprenderá desde lo básico hasta técnicas avanzadas, explorando diferentes géneros musicales. 
+                        Se irán Desarrollando habilidades de lectura, improvisación y expresión artística en un ambiente 
+                        estimulante</p>
+                    <a href="">
+                        <img class="img-ir-al-curso" src="./imagenes/ir-a-curso.png">
+                    </a>
+                </article>
 
-            <article id="guitarra-clasica">
-                <h3>Guitarra Clasica</h3>
-                <a href="https://www.youtube.com/watch?v=q4nUnKLBmYI" target="_self">
-                    <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1qkABcgJRbOWhjfkg1FUIFeQLvw4s1zMk&sz=s4000" alt="instrumento-guitarra" title="Ver Video De Alumnos de Guitarra Clasica">
-                </a>
-                <p>Los alumnos se entrenan paulatinamente en el manejo básico de la guitarra, tonos y rasgueos- pequeños 
-                    punteos melódicos- lectura de tablatura -y práctica grupal- es equivalente para iniciar tanto en Folklore 
-                    como en Tango.</p>
-                <a href="">
-                    <img class="ir-al-curso" src="./imagenes/ir-a-curso.png">
-                </a>
-            </article>
+                <article id="guitarra-clasica">
+                    <h3>Guitarra Clasica</h3>
+                    <a href="https://www.youtube.com/watch?v=q4nUnKLBmYI" target="_self">
+                        <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1qkABcgJRbOWhjfkg1FUIFeQLvw4s1zMk&sz=s4000" alt="instrumento-guitarra" title="Ver Video De Alumnos de Guitarra Clasica">
+                    </a>
+                    <p>Los alumnos se entrenan paulatinamente en el manejo básico de la guitarra, tonos y rasgueos- pequeños 
+                        punteos melódicos- lectura de tablatura -y práctica grupal- es equivalente para iniciar tanto en Folklore 
+                        como en Tango.</p>
+                    <a href="">
+                        <img class="img-ir-al-curso" src="./imagenes/ir-a-curso.png">
+                    </a>
+                </article>
 
-            <article id="violin">
-                <h3>Violin</h3>
-                <a href="https://www.youtube.com/watch?v=SVrcX_bpSVo" target="_self">
-                    <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1ZLuDtZ1v_-EfDaIZ3L3HfLd4yb4RHFEW&sz=s4000" alt="instrumento-violin" title="Ver Video De Alumnos de Violin">
-                </a>
-                <p> los estudiantes descubrirán la belleza de la música a través de técnicas de interpretación y expresión. 
-                    Desde principiantes hasta avanzados, desarrollarán su habilidad en diversos estilos, creando un sólido 
-                    fundamento musical.</p>
-                <a href="">
-                    <img class="ir-al-curso" src="./imagenes/ir-a-curso.png">
-                </a>
-            </article>
+                <article id="violin">
+                    <h3>Violin</h3>
+                    <a href="https://www.youtube.com/watch?v=SVrcX_bpSVo" target="_self">
+                        <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1ZLuDtZ1v_-EfDaIZ3L3HfLd4yb4RHFEW&sz=s4000" alt="instrumento-violin" title="Ver Video De Alumnos de Violin">
+                    </a>
+                    <p> los estudiantes descubrirán la belleza de la música a través de técnicas de interpretación y expresión. 
+                        Desde principiantes hasta avanzados, desarrollarán su habilidad en diversos estilos, creando un sólido 
+                        fundamento musical.</p>
+                    <a href="">
+                        <img class="img-ir-al-curso" src="./imagenes/ir-a-curso.png">
+                    </a>
+                </article>
 
-            <article id="guitarra-electrica">
-                <h3>Guitarra Electrica</h3>
-                <a href="https://www.youtube.com/watch?v=hW95WDXFE2E" target="_self">
-                    <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1uPEzxKBpQ0Pb42FSCfoTW837lvBNV5lj&sz=s4000" alt="instrumento-guitarra-electrica" title="Ver Video De Alumnos de Guitarra Electrica">
-                </a>
-                <p>los estudiantes aprenderán técnicas fundamentales y estilos diversos, desde rock hasta blues. 
-                    Con un enfoque práctico, desarrollarán su creatividad y habilidades de improvisación en un ambiente dinámico 
-                    y divertido.</p>
-                <a href="">
-                    <img class="ir-al-curso" src="./imagenes/ir-a-curso.png">
-                </a>
-            </article>
+                <article id="guitarra-electrica">
+                    <h3>Guitarra Electrica</h3>
+                    <a href="https://www.youtube.com/watch?v=hW95WDXFE2E" target="_self">
+                        <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1uPEzxKBpQ0Pb42FSCfoTW837lvBNV5lj&sz=s4000" alt="instrumento-guitarra-electrica" title="Ver Video De Alumnos de Guitarra Electrica">
+                    </a>
+                    <p>los estudiantes aprenderán técnicas fundamentales y estilos diversos, desde rock hasta blues. 
+                        Con un enfoque práctico, desarrollarán su creatividad y habilidades de improvisación en un ambiente dinámico 
+                        y divertido.</p>
+                    <a href="">
+                        <img class="img-ir-al-curso" src="./imagenes/ir-a-curso.png">
+                    </a>
+                </article>
 
-            <article id="bajo-electrico">
-                <h3>Bajo Electrico</h3>
-                <a href="https://youtu.be/S_sdmeH7aKQ?si=RThyJmNXDj58C-zA" target="_self">
-                    <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1l3qkXUjzh9Njd3Xu7Hg6S1JLhyctg9AP&sz=s4000" alt="instrumento-bajo" title="Ver Video De Alumnos de Bajo">
-                </a>
-                <p>Los estudiantes aprenderán a dominar el instrumento a través de técnicas rítmicas y melódicas esenciales. 
-                    Con un enfoque práctico, explorarán diversos géneros y desarrollarán su capacidad para tocar en conjunto 
-                    y crear grooves sólidos.</p>
-                <a href="">
-                    <img class="ir-al-curso" src="./imagenes/ir-a-curso.png">
-                </a>
-            </article>
+                <article id="bajo-electrico">
+                    <h3>Bajo Electrico</h3>
+                    <a href="https://youtu.be/S_sdmeH7aKQ?si=RThyJmNXDj58C-zA" target="_self">
+                        <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1l3qkXUjzh9Njd3Xu7Hg6S1JLhyctg9AP&sz=s4000" alt="instrumento-bajo" title="Ver Video De Alumnos de Bajo">
+                    </a>
+                    <p>Los estudiantes aprenderán a dominar el instrumento a través de técnicas rítmicas y melódicas esenciales. 
+                        Con un enfoque práctico, explorarán diversos géneros y desarrollarán su capacidad para tocar en conjunto 
+                        y crear grooves sólidos.</p>
+                    <a href="">
+                        <img class="img-ir-al-curso" src="./imagenes/ir-a-curso.png">
+                    </a>
+                </article>
 
-            <article id="bateria">
-                <h3>Bateria</h3>
-                <a href="https://www.youtube.com/watch?v=FaCiJbG1aZE" target="_self">
-                    <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1Xf2KBJgXV1VR9DTniDfDp1z94aTC2hSW&sz=s4000" alt="instrumento-bateria" title="Ver Video De Alumnos de Bateria">
-                </a>
-                <p>Curso dedicado a la enseñanza de la interpretación de bateria y apreciación rítmica. De forma individual 
-                    y en ensambles de rock.</p>
-                <a href="">
-                    <img class="ir-al-curso" src="./imagenes/ir-a-curso.png">
-                </a>
-            </article>
+                <article id="bateria">
+                    <h3>Bateria</h3>
+                    <a href="https://www.youtube.com/watch?v=FaCiJbG1aZE" target="_self">
+                        <img class="img-principal-cursos" src="https://drive.google.com/thumbnail?id=1Xf2KBJgXV1VR9DTniDfDp1z94aTC2hSW&sz=s4000" alt="instrumento-bateria" title="Ver Video De Alumnos de Bateria">
+                    </a>
+                    <p>Curso dedicado a la enseñanza de la interpretación de batería y precisión rítmica. De forma individual 
+                        y en ensambles de rock.</p>
+                    <a href="">
+                        <img class="img-ir-al-curso" src="./imagenes/ir-a-curso.png">
+                    </a>
+                </article>
+            </div>
 
         </section>
         
         <section id="ubicacion">
             <h2>Donde Encontrarnos</h2>
-            <aside id="mapa"> 
-                <h3>Nuestra Sede</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13134.372826374421!2d-58.6352559!3d-34.6144467!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8d744cc584f%3A0x413e563e5379bc29!2sLeopoldo%20Marechal%20Cultural%20Center!5e0!3m2!1sen!2sar!4v1728263776309!5m2!1sen!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
-                <p>Av. Gdor. Vergara 2396, B1688 Villa Tesei, Provincia de Buenos Aires</p>
-            </aside>
-            <article id="redes">
-                <h3>Redes Sociales</h3>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="https://facebook.com/">
-                                <img class="icon" src="./imagenes/fb.png" alt="facebook-icon">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/">
-                                <img class="icon" src="./imagenes/ig.png" alt="instagram-icon">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://x.com/">
-                                <img class="icon" src="./imagenes/x.png" alt="x-icon">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </article>
+            <div id="contenedor-mapa-y-redes">
+                <aside id="mapa"> 
+                    <h3>Nuestra Sede</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13134.372826374421!2d-58.6352559!3d-34.6144467!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8d744cc584f%3A0x413e563e5379bc29!2sLeopoldo%20Marechal%20Cultural%20Center!5e0!3m2!1sen!2sar!4v1728263776309!5m2!1sen!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+                    <p>Av. Gdor. Vergara 2396, B1688 Villa Tesei, Provincia de Buenos Aires</p>
+                </aside>
+                <article id="redes">
+                    <h3>Redes Sociales</h3>
+                    <nav>
+                        <ul id="ulist-redes">
+                            <li>
+                                <a href="https://facebook.com/">
+                                    <img class="img-icon" src="./imagenes/fb.png" alt="facebook-icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/">
+                                    <img class="img-icon" src="./imagenes/ig.png" alt="instagram-icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/">
+                                    <img class="img-icon" src="./imagenes/x.png" alt="x-icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </article>
+            </div>
         </section>
     </main>
+    <hr>
     <footer>
-        <p>Creado por Gabriel Donato Martinez Condori, Taller de Lenguajes de Marcado y Tecnologias Web - Comision 01</p>
+        <p>Creado por Gabriel Donato Martinez Condori para Taller de Lenguajes de Marcado y Tecnologías Web - Comision 01</p>
     </footer>
 </body>
 </html>

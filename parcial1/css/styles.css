@@ -1,12 +1,144 @@
-/* .centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/*      styles para index, cursoDeCanto, contacto       */
+*{
+    background-color: rgb(245, 244, 239);
 }
 
-#cursos{
-    position: relative;
-    display: inline-block;
+/*fuentes personalizadas*/
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3{
+    font-family: 'Nunito',sans-serif;
     text-align: center;
-} */
+}
+
+h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(195, 92, 23);
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(194, 116, 64);
+}
+
+h3{
+    font-size: 20px;
+    color: rgb(190, 131, 91);
+}
+
+p{
+    font-family: 'Lato',arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+#inicio nav ul{
+    list-style: none;
+    text-align: center;
+    
+}
+
+#inicio nav ul li a{
+    text-decoration: none;
+    font-family: 'Lato',arial, sans-serif;
+    color: rgb(211, 93, 50);
+}
+
+#img-logo{
+    height: 200px;
+}
+
+#img-inicio{
+    height: 600px;
+}
+
+.img-institucionales{
+    height: 200px;
+}
+
+.img-principal-cursos{
+    height: 200px;
+}
+
+.img-ir-al-curso{
+    height: 40px;
+}
+
+.img-icon{
+    height: 20px;
+    width: 20px;
+}
+
+#ulist-redes{
+    list-style: none;
+}
+
+footer p{
+    font-family: arial,serif,sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+
+/*      exclusivo de cursoDeCanto   */
+#rango-edades{
+    font-family: 'Lato',arial, sans-serif;
+}
+
+#rango-edades .titulo-edades{
+    font-weight: bold;
+}
+
+#rango-edades ul ol li{
+    list-style: lower-roman;
+}
+table{
+    font-family: 'Lato',arial, sans-serif;
+}
+
+table, .td-infantil, .td-juvenil, .td-adulto{
+    border: 1px solid black;
+}
+
+.td-infantil{
+    background-color: rgb(190, 131, 91);
+}
+
+.td-juvenil{
+    background-color: rgb(194, 116, 64);
+}
+
+.td-adulto{
+    background-color: rgb(195, 92, 23);
+}
+
+
+/*      exclusivo de contacto   */
+
+form{
+    text-align: center;
+}
+
+#main-contacto p{
+    text-align: center;
+}
+

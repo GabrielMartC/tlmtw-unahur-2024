@@ -8,8 +8,8 @@ body{
 
 /*fuente personalizada*/
 @font-face{ 
-    font-family: 'starjedi';
-    src: url('fonts/Starjedi.ttf') format('truetype');
+    font-family: 'Ger4ronL-Cond';
+    src: url('fonts/Ger4ronL-Cond.ttf') format('truetype');
 }
 
 hr{
@@ -20,7 +20,7 @@ hr{
 }
 
 h1,h2{
-    font-family: 'starjedi',sans-serif;
+    font-family: 'Ger4ronL-Cond',sans-serif;
 }
 
 h1{

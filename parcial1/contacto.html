@@ -28,19 +28,23 @@
                 </li>
             </ul>
         </nav>
+        <hr>
     </header>
-    <main>
+    <main id="main-contacto">
         <h1>Contacto</h1>
-        <p>Para dudas o consultas especificas sobre los cursos, complete el siguiente formulario para ser respondido a la brevedad.</p>
+        <p>Para dudas o consultas específicas sobre los cursos, complete el siguiente formulario para ser respondido a la brevedad.</p>
         <section id="formulario">
             <h2>Formulario de Contacto</h2>
-            <form action="">
+            <form>
                 <label for="nombre">Nombre</label>
                 <input id="nombre" type="text">
+                <br>
                 <label for="apellido">Apellido</label>
                 <input id="apellido" type="text">
+                <br>
                 <label for="correo-electronico">Correo Electronico</label>
                 <input type="email" name="" id="correo-electronico">
+                <br>
                 <label for="curso">Elija el curso:</label>
                 <input list="anacrusa-cursos" id="curso" name="curso">
                 <datalist id="anacrusa-cursos">
@@ -70,8 +74,10 @@
                     <label for="cb3">Noche</label>
                     <input type="checkbox" name="cb3" id="horarios">
                 </div>
+                <br>
                 <label for="comentarios">Comentarios</label>
                 <textarea name="comentarios" id="comentarios" rows="5" cols="33" placeholder="Escriba su mensaje aqui..."></textarea>
+                <br>
                 <input type="submit" value="Enviar">
             </form>
         </section>
@@ -90,20 +96,20 @@
             <article id="redes">
                 <h3>Redes Sociales</h3>
                 <nav>
-                    <ul>
+                    <ul id="ulist-redes">
                         <li>
                             <a href="https://facebook.com/">
-                                <img class="icon" src="./imagenes/fb.png" alt="facebook-icon">
+                                <img class="img-icon" src="./imagenes/fb.png" alt="facebook-icon">
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/">
-                                <img class="icon" src="./imagenes/ig.png" alt="instagram-icon">
+                                <img class="img-icon" src="./imagenes/ig.png" alt="instagram-icon">
                             </a>
                         </li>
                         <li>
                             <a href="https://x.com/">
-                                <img class="icon" src="./imagenes/x.png" alt="x-icon">
+                                <img class="img-icon" src="./imagenes/x.png" alt="x-icon">
                             </a>
                         </li>
                     </ul>
@@ -111,8 +117,9 @@
             </article>
         </section>
     </main>
+    <hr>
     <footer>
-        <p>Creado por Gabriel Donato Martinez Condori, Taller de Lenguajes de Marcado y Tecnologias Web - Comision 01</p>
+        <p>Creado por Gabriel Donato Martinez Condori para Taller de Lenguajes de Marcado y Tecnologías Web - Comision 01</p>
     </footer>
 </body>
 </html>
