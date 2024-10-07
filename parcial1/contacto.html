@@ -4,8 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | Instituto Anacrusa</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <h1>Holi</h1>
+    <header id="inicio">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                     <a href="index.html#sobre-nosotros">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="index.html#cursos">Cursos</a>
+                </li>
+                <li>
+                    <a href="index.html#ubicacion">Donde Encontrarnos</a>
+                </li>
+
+                <li>
+                    <a href="#inicio" target="_self">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <p>Para dudas o consultas especificas sobre los cursos, complete el siguiente formulario para ser respondido a la brevedad.</p>
+        <section id="formulario">
+            <h2>Formulario de Contacto</h2>
+            <form action="">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text">
+                <label for="apellido">Apellido</label>
+                <input id="apellido" type="text">
+                <label for="correo-electronico">Correo Electronico</label>
+                <input type="email" name="" id="correo-electronico">
+                <label for="curso">Elija el curso:</label>
+                <input list="anacrusa-cursos" id="curso" name="curso">
+                <datalist id="anacrusa-cursos">
+                    <option value="Canto">
+                    <option value="Piano"></option>
+                    <option value="Guitarra Clasica"></option>
+                    <option value="Violin"></option>
+                    <option value="Guitarra Electrica"></option>
+                    <option value="Bajo"></option>
+                    <option value="Bateria"></option>
+                </datalist>   
+                <div id="input-radio-edades">
+                    <p>Elija rango edad:</p>
+                    <label for="rb1">Infantil</label>
+                    <input type="radio" id="rb1" name="edades">
+                    <label for="rb2">Juvenil</label>
+                    <input type="radio" id="rb2" name="edades">
+                    <label for="rb3">Adultos</label>
+                    <input type="radio" id="rb3" name="edades">
+                </div>
+                <div id="input-checkbox-horarios">
+                    <p>Elija horarios:</p>
+                    <label for="cb1">Mañana</label>
+                    <input type="checkbox" name="cb1" id="horarios">
+                    <label for="cb2">Tarde</label>
+                    <input type="checkbox" name="cb2" id="horarios">
+                    <label for="cb3">Noche</label>
+                    <input type="checkbox" name="cb3" id="horarios">
+                </div>
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" rows="5" cols="33" placeholder="Escriba su mensaje aqui..."></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section id="ubicacion">
+            <h2>Donde Encontrarnos</h2>
+            <aside id="contacto-directo"> 
+                <h3>Direccion</h3>
+                <p>Av. Gdor. Vergara 2396, B1688 Villa Tesei, Provincia de Buenos Aires</p>
+                <h3>Telefono</h3>
+                <p>2199-7670</p>
+                <h3>Horario</h3>
+                <p>Lun a Viern: 08:00am - 22:00pm</p>
+                <p>Sab: 08:00am - 18:00pm</p>
+            </aside>
+            <article id="redes">
+                <h3>Redes Sociales</h3>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://facebook.com/">
+                                <img class="icon" src="./imagenes/fb.png" alt="facebook-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/">
+                                <img class="icon" src="./imagenes/ig.png" alt="instagram-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/">
+                                <img class="icon" src="./imagenes/x.png" alt="x-icon">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Creado por Gabriel Donato Martinez Condori, Taller de Lenguajes de Marcado y Tecnologias Web - Comision 01</p>
+    </footer>
 </body>
 </html>
