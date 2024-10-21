@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#divEj1{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+#divEj2{
+    width: 200px;
+    background-color: lightblue;
+    margin: auto;
+}
+
+p{
+    padding: 15px;
+}
+
+#divEj4{
+    border: 5px solid green;
+    border-radius: 15px
+}
+
+#divEj5{
+    background-color: lightgray;
+    width: 50%;
+    height: 200px;
+}
+
+#listEj6 li{
+    /* list-style: circle; */
+    /* margin: 30px; */
+    display: inline;
+}
+
+#divEj7{
+    height: 100px;
+    background-color: lightblue;
+    align-content: center;
+}
+
+#divEj8{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.left{
+    width: 45%;
+    background-color: rgb(34, 200, 255);
+}
+
+.right{
+    width: 45%;
+    background-color: lightgreen;
+}
+
+.left, .right{
+    display: inline-block;
+
+}
