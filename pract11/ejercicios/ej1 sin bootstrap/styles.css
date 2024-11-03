@@ -1,0 +1,38 @@
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-13 {width: 33.23%;}
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    background-color: bisque;
+
+    /* Separación entre columnas */
+    /* margin-right: 3px;  */
+    box-sizing: border-box; /* Asegura que padding y margen no alteren el ancho de las columnas */
+}
+
+
+/* Si deseas ajustar solo el padding del texto, puedes agregar una clase específica al contenido de las columnas */
+.text-content {
+    padding: 10px; /* Ajusta el padding al valor que desees */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
